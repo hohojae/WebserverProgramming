@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts</title>
+    <style type="text/css">
+      body {
+        background: linear-gradient(to top, #d21a0b 30% , #f4a336 55%, #1a0bd2 65%, #00004d 100%);
+        
+      }
+      @FONT-FACE {
+      			font-family:'nanumBpen';
+        		src: url("./Fonts/NANUMBARUNPENR.TTF");
+      }
+      @FONT-FACE {
+      			font-family:'nanumBpenbold';
+        		src: url("./Fonts/NANUMBARUNPENB.TTF");
+      }
+      @FONT-FACE {
+      			font-family:'nanumsquare';
+        		src: url("./Fonts/NANUMSQUARER.TTF");
+      }
+      @FONT-FACE {
+      			font-family:'nanumsquareB';
+        		src: url("./Fonts/NANUMSQUAREB.TTF");
+      }
+      @FONT-FACE {
+      			font-family:'nanumsquareEB';
+        		src: url("./Fonts/NANUMSQUAREEB.TTF");
+      }
+      @FONT-FACE{
+        		font-family: 'nanumpen';
+        		src: url("./Fonts/NANUMPEN.TTF");
+      }
+      @FONT-FACE{
+      			font-family: 'nanumbrush';
+        		src: url("./Fonts/NANUMBRUSH.TTF");
+      }
+      @FONT-FACE{
+      			font-family: 'nanumSround';
+        		src: url("./Fonts/NANUMSQUAREROUNDL.TTF");
+      }
+      section, aside {
+       max-height: 1000px;
+       min-height: 200px;
+        height: 700px;
+        overflow: auto;
+      }
+      img {
+        float: left;
+      }
+
+      p#left{
+        clear: both;
+      }
+      #transparentboarder{
+      	border: 10px solid #dddddd;
+        
+      }
+      #wrapper {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 800px;
+        border: 5px solid #dddddd;
+    	}
+      
+      #container {
+        border: 5px solid #fffd00;
+      }
+      
+      .good { overflow: auto; }
+      <!-- 
+      <div class="good">이미지 소스 넣음. 이미지크기에 따라 자동크기조정 </div>
+      --!>
+      
+      header {
+      	background-color: #ffffff;
+        min-width: 150px;
+        max-height: 60px;
+      }
+      nav{
+      	background-color:#e9dbe2;
+        min-width: 150px;
+        max-width: 100%;
+        height: 60px;
+        padding: 1px;
+      }
+      section{
+      	background-color: #ffffff;
+        width: 83%;
+        min-width: 50px;
+        max-width: 90%;
+        float: left;
+        position:fixed
+        left: 0px;
+      }
+      article {
+        background-color: #fff;
+		width: 80%;
+        height: 620px;
+        padding: 0 5% 0 0px;
+        margin: 12px 0 0 5%;
+      }
+      aside {
+        background-color:#ffffff;
+        width: 150px;
+        min-width: 150px;
+        max-width: 150px;
+         float: right;
+        position: fixed;
+        right: 0px;
+        text-align: left;
+      }
+      footer{
+      	background-color:#758ed1;
+        min-width: 150px;
+        max-width: 100%;
+        clear: both;
+      }
+      #BackgroundGrad{
+      
+      }
+    </style>
+  </head>
+  <body>
+    
+    <header style="text-align: center">
+      <h1 span style="font-family: nanumbrush;color:#fefd00" >HOJAE's PAGE</h1>
+    </header>
+    
+    <div id="wrapper"> 
+      
+      <nav style="font-size: 20px; font-weight: bold; font-family: nanumSround;background-color: white">
+        <ul style="list-style: none">
+          <li style="padding: 0px 20px 0px 120px; float: left"> <a href = "https://blog.naver.com/sorkdhkd78" target="_blank" style="color:#00004d; text-decoration: none">블로그</a></li>
+          <li style="padding: 0px 20px 0px 20px; float: left"><a href = "https://github.com/hohojae" target="_blank" style="color:#00004d; text-decoration: none">깃허브</a></li>
+          <li style="padding: 0px 20px 0px 20px; float: left"><a href = "https://www.instagram.com/hojaemayo/" target="_blank" style="color:#00004d; text-decoration: none">인스타그램</a></li>
+          <li style="padding: 0px 20px 0px 20px; float: left"><a href = "http://113.198.82.93/~u1693032/hw1/animalpics.html" target="_blank" style="color:#00004d; text-decoration: none"> 귀요미들 </a></li>
+          <li style="padding: 0px 80px 0px 20px; float: left"><a href = "" target="_blank" style="color:#00004d; text-decoration: none">배고플 때</a></li>
+       </ul>
+   	 </nav>
+      
+      
+    <section>
+      <div style="font-weight: bold; font-family: nanumbrush; font-size:35px; color: white">
+      <p style="width: 90%; background-color: #0000b3; padding: 10px 0 10px 35px; margin: 0 0 0 0">Hi, my name is Hojae, Lee</p>
+      </div>
+        <article style="font-family: nanumBpen; font-size: 16px;">
+          <p >안녕하세요,</p>
+          <a href = "http://113.198.82.93/~u1693032/hw1/timetable.html" style="text-decoration: none">
+            이것은 저의 시간표입니다.</a>
+          rkkfdsk
+      </article>
+    </section>
+      <aside align="center" valign="center">
+        <img src = "./img/hoja.JPG" width="150" height="200" title="hi">
+       
+           <p style="color:#00004d; font-weight: bold; font-family: nanumbrush;font-size: 30px; text-align: center; margin: 10px 0 10px 0;">
+                About me
+           </p>
+         <div style="font-family: nanumBpen; font-size: 16px; color:#00004d;">
+                  안녕하세요.<br>
+                  이호재라고 합니다.<br> 
+                  한성대학교 4학년 1학기 재학 중입니다.<br> 
+        		  앤 해서웨이(대표작 : "인터스텔라", "악마는 프라다를 입는다")와 사진을 찍어보았습니다.
+                  <br>관심분야는 최근들어
+        		  HTML입니다. <br>장래희망은
+                  아직 정하지 못했습니다.
+                  <br>취미는 피아노입니다. 그치만 배운지 얼마 되지
+                  않아서 잘 치진 못합니다. 현재 성시경의 "너의 모든 순간"을
+           		  연습 중 입니다.
+        </div>
+        
+      </aside>
+    
+    <footer >
+        <embed src="./sunflowedr.wav" width=300  autostart="false" hidden="false" loop="false">
+                bgm : Post Malone, Swae Lee - Sunflower (Spider-Man: Into the Spider-Verse) - piano cover by Grim Cat Piano
+        <br><a href = "https://www.youtube.com/watch?v=BDiQo77gr0A">https://www.youtube.com/watch?v=BDiQo77gr0A</a>
+    </footer>
+   </div> 
+    
+  </body>
+</html>
