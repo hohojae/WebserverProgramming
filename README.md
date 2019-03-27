@@ -1,2 +1,1 @@
-# WebserverProgramming
-# 과제 1
+# 과제1
